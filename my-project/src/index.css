@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+
+    @apply 
+    mx-10 my-10 inline-block bg-red-600 text-white font-semibold text-xl py-5 px-5 rounded-full hover:bg-red-900 hover:transition-colors focus:ring-2
+
+}
+
+body {
+  @apply bg-gray-100 text-gray-900 transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-gray-900 text-white;
+}
